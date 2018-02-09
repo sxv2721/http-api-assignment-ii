@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "http api assignment 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"all tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxv2721/http-api-assignment-ii.git"
+  },
+  "author": "Simon Voorhees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sxv2721/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/sxv2721/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
